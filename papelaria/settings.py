@@ -12,23 +12,19 @@ https://docs.djangoproject.com/en/6.1/ref/settings/
 
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-0z=6pe&e4+e9m0*yc$zbi_0n57ca%unpd6%9%(k6%ja88ik4iy'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
 
-# Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -69,8 +65,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'papelaria.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/6.1/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
@@ -80,8 +75,7 @@ DATABASES = {
 }
 
 
-# Password validation
-# https://docs.djangoproject.com/en/6.1/ref/settings/#auth-password-validators
+#s
 
 AUTH_PASSWORD_VALIDATORS = [
     {
