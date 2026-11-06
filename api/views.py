@@ -32,6 +32,3 @@ def listar_produtos(request):
             return Response(Serializers.data, status=status.HTTP_201_CREATED)
         else:
             return Response(Serializers.errors, status=status.HTTP_400_BAD_REQUEST)        
-    @api_view(['GET' , 'PATCH'])
-    def detalhe_produto(request, pk):
-        
